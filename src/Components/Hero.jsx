@@ -24,12 +24,12 @@ const Hero = () => {
         {/* right */}
         <div className="relative">
           <img
-            src="src/assets/images/Ellipse1.png"
+            src="../assets/images/Ellipse1.png"
             alt="person"
             className="h-44  md:h-60 lg:h-80"
           />
           <img
-            src="src/assets/images/Ellipse2.png"
+            src="../assets/images/Ellipse2.png"
             alt="person"
             className="h-44  md:h-60 lg:h-80 absolute left-0 -z-10 top-4"
           />

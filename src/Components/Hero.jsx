@@ -1,4 +1,6 @@
 import Navbar from "./Navbar";
+import image1 from "../assets/images/Ellipse1.png";
+import image2 from "../assets/images/Ellipse2.png";
 
 const Hero = () => {
   return (
@@ -23,13 +25,9 @@ const Hero = () => {
 
         {/* right */}
         <div className="relative">
+          <img src={image1} alt="person" className="h-44  md:h-60 lg:h-80" />
           <img
-            src="../assets/images/Ellipse1.png"
-            alt="person"
-            className="h-44  md:h-60 lg:h-80"
-          />
-          <img
-            src="../assets/images/Ellipse2.png"
+            src={image2}
             alt="person"
             className="h-44  md:h-60 lg:h-80 absolute left-0 -z-10 top-4"
           />

@@ -1,6 +1,7 @@
 import { useLocation } from "react-router-dom";
 import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
+import car from "../assets/images/car.png";
 
 const WorkDetail = () => {
   const location = useLocation();
@@ -40,7 +41,7 @@ const WorkDetail = () => {
           veniam consequat sunt nostrud amet.
         </p>
 
-        <img src="/src/assets/images/car.png" alt="car" className="py-2.5 w-full max-w-lg"/>
+        <img src={car} alt="car" className="py-2.5 w-full max-w-lg"/>
       </div>
 
       <Footer />

@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+body {
+  font-family: "heebo", sans-serif;
+}
+
+p {
+  font-weight: 400;
+}
+
+h2 {
+  font: 1.785rem;
+}
+
+i {
+  font-size: 1.875rem;
+  cursor: pointer;
+}
+
+i:hover {
+  color: #ff6464;
+}
+
+h1,
+h2,
+h3,
+p {
+  color: #21243d;
+}
+
+.section-margin {
+  @apply mx-6 md:mx-40;
+}
